@@ -5,7 +5,7 @@ This project is part of my learning journey from Python to Go, documented in my 
 
 ---
 
-## 📋 Overview
+## Overview
 This project demonstrates:
 - How to create a simple Go program
 - How to run Go code from the terminal
@@ -13,25 +13,26 @@ This project demonstrates:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - Go 1.24+ installed  
 - Linux, macOS, or Windows terminal  
 - Git (to clone the repo)
 
 ---
 
-## 🚀 How to Run
+### How to Run
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+
+  git clone https://github.com/<your-username>/<your-repo>.git
+  cd <your-repo>
+
 ### 2. Run directly with Go
-```bash
+
 go run main.go
 
 ### 3. Build and run as executable
-```bash
+
 go build main.go
 ./main
 Expected output
