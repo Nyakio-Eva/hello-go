@@ -26,3 +26,18 @@ This project demonstrates:
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
+### 2. Run directly with Go
+```bash
+go run main.go
+
+### 3. Build and run as executable
+```bash
+go build main.go
+./main
+Expected output
+Hello, World!
+
+### What I Learned
+Go requires all code to be inside a package (in this case, main for executables).
+
+The main() function is the program's entry point.
